@@ -20,4 +20,3 @@ export const TransactionHistory = ({ items }) => {
         </table>
     );
 };
-// { item: { type, amount, currency } }
