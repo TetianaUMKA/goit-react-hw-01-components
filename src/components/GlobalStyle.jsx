@@ -30,6 +30,13 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding-left: 0;
     }
+    ul {
+        list-style: none;
+    }
+
+    li {
+        
+    }
 
     a {
         text-decoration: none;
@@ -37,7 +44,7 @@ export const GlobalStyle = createGlobalStyle`
 
     img {
         display: block;
-        max-width: 100%;
+        width: 100%;
         height: auto;
     }
 
