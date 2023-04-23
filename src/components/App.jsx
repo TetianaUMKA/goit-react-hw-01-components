@@ -11,16 +11,17 @@ import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import transactions from './TransactionHistory/transactions.json'
 
 import { GlobalStyle } from './GlobalStyle';
+import { Layout } from './Layout/Layout';
 
 
 export const App = () => {
   return (
-    <>
+    <Layout>
       <Profile user={user} />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
       <GlobalStyle />
-    </>
+    </Layout>
   );
 };
