@@ -1,14 +1,14 @@
-import { Profile } from './Profile';
-import user from '../user.json';
+import { Profile } from './UserProfile/Profile';
+import user from './UserProfile/user.json';
 
-import { Statistics } from './Statistics';
-import data from '../data.json';
+import { Statistics } from './Statistics/Statistics';
+import data from './Statistics/data.json';
 
-import { FriendList } from './FriendList';
-import friends from '../friends.json';
+import { FriendList } from './FriendList/FriendList';
+import friends from './FriendList/friends.json';
 
-import { TransactionHistory } from './TransactionHistory';
-import transactions from '../transactions';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import transactions from './TransactionHistory/transactions.json'
 
 import { GlobalStyle } from './GlobalStyle';
 
