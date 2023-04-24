@@ -1,12 +1,15 @@
 import PropTypes from 'prop-types';
+import { FaCircle } from 'react-icons/fa';
+
+import { Item, Status, Name } from './FriendListItem.styled';
 
 export const FriendListItem = ({ friend: { isOnline, avatar, name } }) => {
     return (
-        <li>
-            <span class="status">{isOnline}</span>
-            <img class="avatar" src={avatar} alt="User avatar" width="48" />
-            <p class="name">{name}</p>
-        </li>
+        <Item>
+            <Status isOnline={isOnline}><FaCircle/></Status>
+            <img src={avatar} alt="User avatar" width="48" />
+            <Name>{name}</Name>
+        </Item>
     );
 };
 
